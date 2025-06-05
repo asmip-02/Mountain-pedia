@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+.main-container {
+  background-color: rgb(14, 42, 63);
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+  gap: 20px;                             /* space between images */
+  padding: 20px;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+ }
+
+.image-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.image-grid img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+.heading {
+  display: flex;
+  align-items: center; /* vertical center */
+  gap: 10px; /* space between text and image */
+}
+
+.mountain-icon {
+  width: 100px; /* adjust as needed */
+  height: 100px;
+}
