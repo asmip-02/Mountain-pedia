@@ -12,7 +12,7 @@ body::before{
     top: 0;left: 0;
     height: 100%;
     width: 100%;
-    background-image: url(himalayas.avif);
+    background-image: url(Himalayas.avif);
     background-size: cover;
     background-position: center;
     opacity: 0.6;
